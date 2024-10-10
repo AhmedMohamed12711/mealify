@@ -1,0 +1,165 @@
+/* xxl */
+@media (max-width: 1536px){
+     /* chefs */
+
+    /* chefs */
+}
+
+/* xl */
+@media (max-width: 1280px){
+   /* navber */
+.media{
+    opacity: 1;
+    padding: 0 10px;
+}
+.links{
+    display: none;
+}
+   /* navbar */
+      /* chefs */
+    .inner :hover .icon-chefs {
+        left: 250px;
+    } 
+    /* chefs */
+}
+
+/* lg */
+@media (max-width: 1250px){
+    /* home */
+    #home .container {
+        width: 90%;
+        flex-direction: column-reverse; 
+        justify-content: center;
+    }
+
+    #home .header-content {
+        width: 100%; 
+        text-align: center; 
+        margin-bottom: 20px;
+    }
+
+    #home .picture-home {
+        width: 100%; 
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+    }
+
+    #home .picture-home img {
+        width: 35%; 
+    }
+
+    .button-home {
+        gap: 20px; 
+        justify-content: center; 
+    }
+    /* home */
+
+      /* footer */
+    .footer .container {
+        text-align: center;
+    }
+
+
+    .subscripe {
+        width: 80%; 
+        margin: 20px;
+        order: 2;    
+    }
+
+    .media-f{
+        width: 80%; 
+        order: 1;
+    }
+
+    .about,.contact-details{
+        width: 45%;
+        display: inline-block;
+    }
+    /* footer */
+}
+@media (max-width: 1024px){
+    /* chefs */
+    .inner :hover .icon-chefs {
+        left: 300px;
+    } 
+    .chef-item{
+        width: 45%;
+    }
+    .inner :hover .icon-chefs {
+        left: 270px;
+    } 
+
+    /* chefs */
+
+}
+
+/* md */
+@media (max-width: 768px){
+        /* home */
+        #home .header-content h2 {
+            font-size: 45px; 
+        }
+    
+        #home .header-content p {
+            font-size: 14px; 
+        }
+    
+        .button-home .btn-book, .button-home .btn-video {
+            padding: 10px 20px; 
+        }
+    
+        .button-home .btn-video .icon {
+            width: 50px;
+            height: 50px;
+        }
+    
+        .button-home .btn-video .icon::before {
+            width: 35px;
+            height: 35px;
+        }
+        /* home */
+
+        /* chief */
+        .chef-item{
+            width: 80%;
+            margin: 0 auto;
+        }
+        .icon-chefs{
+            left: 600px;
+        }
+        .inner :hover .icon-chefs {
+            left: 430px;
+        } 
+        /* chief */
+        /* contact */
+        .half{
+            flex-direction: column;
+            
+        }
+        .half input{
+            width: 98%;
+        }
+        /* contact */
+        /* footer */
+        .footer .container{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px;
+        }
+        .media-f{
+            width: 80%;
+            
+        }
+        .about,.contact-details{
+            width: 100%;
+        }
+        
+        /* footer */
+}
+/* sm */
+@media (max-width: 600px){
+    .inner :hover .icon-chefs {
+        left: 200px;
+    }
+}
