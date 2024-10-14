@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 } 
+html{
+    scroll-padding-top:100px ;
+}
 :root{
     --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-amatic: "Amatic SC", sans-serif;
@@ -159,7 +162,6 @@ ul{
     margin: 20px 0;
 }
 .button-home {
-    /* background-color: aqua; */
     display: flex;
     align-items: center;
     gap: 40px;
@@ -365,6 +367,7 @@ color: #D42F2F;
 .gallary-image img{
     width: 100%;
     display: block;
+    transition: all 1.2s ease-in-out;
 }
 .inner{
     border: 2px solid white;
@@ -402,6 +405,9 @@ color: #D42F2F;
 .gallary-image .inner:hover .overlay2{
     opacity: 1;
     top: 0;
+}
+.gallary-image .inner:hover img{
+    transform: scale(1.2);
 }
 /* end gallery */
 
